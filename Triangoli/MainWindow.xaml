@@ -1,0 +1,24 @@
+﻿<Window x:Class="Triangoli.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Triangoli"
+        mc:Ignorable="d"
+        Title="Triangoli" Height="450" Width="800">
+    <Grid>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,41,0,0" Height="40" Width="78" Content="Lato 1" FontSize="14" FontWeight="Bold"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,120,0,0" Height="40" Width="78" Content="Lato 2" FontWeight="Bold" FontSize="14"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,201,0,0" Height="40" Width="78" FontSize="14" FontWeight="Bold" Content="Lato 3"/>
+        <Label x:Name="lbl_TipoTriangolo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="322,323,0,0" Height="56" Width="239" Content="" RenderTransformOrigin="1.144,0.177" Foreground="#FFD10000" FontWeight="Bold" FontFamily="Verdana" FontSize="18"/>
+        <Button Content="MOSTRA" HorizontalAlignment="Left" VerticalAlignment="Top" Width="237" Margin="322,201,0,0" Height="61" FontSize="16" FontWeight="Bold" Click="Button_Click" Background="#FFFFD0D0" BorderBrush="White" Foreground="Black"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="322,41,0,0" Height="40" Width="78" Content="Area" FontSize="14" FontWeight="Bold"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="322,120,0,0" Height="40" Width="78" Content="Perimetro" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="lbl_Area" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="481,41,0,0" Height="40" Width="156" Content=""/>
+        <Label x:Name="lbl_Perimetro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="481,120,0,0" Height="40" Width="156" Content=""/>
+        <TextBox x:Name="txt_Lato1" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Margin="162,41,0,0"/>
+        <TextBox x:Name="txt_Lato2" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Margin="162,120,0,0"/>
+        <TextBox x:Name="txt_Lato3" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" Margin="162,201,0,0"/>
+        
+    </Grid>
+</Window>
